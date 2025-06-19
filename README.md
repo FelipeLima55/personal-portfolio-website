@@ -37,3 +37,23 @@ Criar um portfólio web moderno e responsivo que apresente minhas habilidades, p
 1. Clone o repositório:
    ```bash
    git clone https://github.com/FelipeLima55/personal-portfolio-website.git
+2. Abra o arquivo index.html no navegador.
+
+✨ Próximos Passos
+Implementar interatividade com JavaScript (ex: menus, animações, formulários)
+
+Refatorar o projeto para componentes React
+
+Publicar a versão final no GitHub Pages ou Vercel
+
+📖 Aprendizados até agora
+Estruturação de páginas com HTML semântico
+
+Criação de layouts responsivos com Flexbox e Grid
+
+Melhores práticas de organização de código frontend
+
+Preparação de um projeto para portfólio profissional
+
+👨‍💻 Sobre o programa Desenvolve
+É um programa de capacitação do Grupo Boticário, com foco na formação de desenvolvedores fullstack para o mercado de tecnologia.

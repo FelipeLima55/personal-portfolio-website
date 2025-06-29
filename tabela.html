@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50px;
+            margin: 20px auto;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead {
+        background-color: #f0f0f0;
+        }
+
+        tbody tr:nth-child(odd) {
+        background-color: #fafafa;
+        }
+
+        tbody tr:nth-child(even) {
+        background-color: #e6f7ff;
+        }
+
+         td:nth-child(1) {
+        font-weight: bold;
+        color: #333;
+        }
+
+        td:nth-child(2) {
+        color: #0077cc;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Habilidade</th>
+                <th>Nível</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Avançado</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>Git e GitHub</td>
+                    <td>Intermediário</td>
+                </tr>                    
+            </tbody>
+        </thead>
+    </table>
+</body>
+</html>

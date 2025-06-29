@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 20px;
+        background-color: #f0f0f0;
+      }
+
+      .grid-container {
+        max-width: 900px;
+        margin: 0 auto;
+        border: 2px solid #333;
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+          "header header"
+          "sidebar main"
+          "footer footer";
+
+        gap: 15px;
+      }
+
+      .grid-item {
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #e0e0e0;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+
+      .header {
+        grid-area: header;
+        background-color: #a7c7e7;
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+        background-color: #f1cbff;
+      }
+
+      .main {
+        grid-area: main;
+        background-color: #c1f0c1;
+        min-height: 500px;
+      }
+
+      .footer {
+        grid-area: footer;
+        background-color: #ffe4b5;
+      }
+
+      @media (max-width: 720px) {
+        .footer {
+            .grid-container{
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto auto auto;
+                grid-template-areas: 
+                "header"
+                "sidebar"
+                "main"
+                "footer"
+                ;
+            }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="grid-container">
+      <header class="grid-item header">Cabeçalho</header>
+      <aside class="grid-item sidebar">Barra lateral</aside>
+      <main class="grid-item main">Conteudo principal</main>
+      <footer class="grid-item footer">Rodapé</footer>
+    </div> -->
+
+    <form action="">
+      <input type="text" placeholder="Digite seu nome completo">
+      <select name="" id="">
+        <option value="">São Paulo</option>
+        <option value="">Minas Gerais</option>
+        <option value="">Bahia</option>
+      </select>
+      <button type="submit">Enviar</button>
+    </form>
+
+  </body>
+</html>
